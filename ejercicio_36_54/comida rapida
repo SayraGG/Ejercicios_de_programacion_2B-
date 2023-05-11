@@ -1,0 +1,21 @@
+//comida rápida 
+#include<stdio.h>
+#include<math.h>
+
+int main()
+{
+int hd , pp, beb,chd, cpp, cbeb, total;
+    printf("Bienvenido: ");
+    printf(" Cuantos hot dogs desea ordenar?");
+    scanf("%i",&hd);
+    printf(" Cuantas papas desea ordenar?");
+    scanf("%i",&pp);
+    printf(" Cuantas bebidas desea ordenar:");
+    scanf("%i",&beb);
+    chd=hd*25;
+    cpp=pp*22;
+    cbeb=beb*18;
+    total=chd+cpp+cbeb;
+    printf ("El total a pagar es de:  %i" ,&total);
+    
+}
